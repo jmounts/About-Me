@@ -40,7 +40,8 @@ table {
   border-collapse: collapse;
   border-spacing: 0;
 }
-/* End CSS RESET */
+/* End CSS RESET
+///////////////////////////////////////////////*/
 
 
 body {
@@ -64,10 +65,9 @@ body {
 .masthead {
     margin: -2em;
     padding: 11em 0;
-    background-image: url('https://unsplash.imgix.net/photo-1416339442236-8ceb164046f8?q=75&fm=jpg&s=8eb83df8a744544977722717b1ea4d09');
+    background-image: url('../images/desk.jpg');
     background-repeat: no-repeat;
     background-size: cover;
-    border-top: solid 1em #000000;
 }
 
 .masthead-heading {
@@ -77,8 +77,8 @@ body {
     font-size: 2em;
     letter-spacing: -.02em;
     text-transform: uppercase;
-    color: #FF3300;
-        text-shadow: 1px 1px 26px #000;
+    color: white;
+    opacity: 80%;
 }
 
 .masthead-intro {
