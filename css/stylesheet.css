@@ -59,7 +59,7 @@ body {
 
 .masthead {
     margin: -2em;
-    padding: 12em 0;
+    padding: 10em 0;
     background-image: url('../images/desk.jpg');
     background-repeat: no-repeat;
     background-size: cover;
@@ -67,10 +67,10 @@ body {
 
 .masthead-heading {
     margin-top: -0.2em;
-    padding-bottom: 2em;
+    padding-bottom: 1em;
     font-family: "Droid+Sans", sans-serif;
     font-weight: bold;
-    font-size: 1.5em;
+    font-size: 1.25em;
     letter-spacing: -.02em;
     text-transform: uppercase;
     color: white;
@@ -80,13 +80,15 @@ body {
 .masthead-intro {
     font-family: "Droid+Sans", sans-serif;
     font-size: 3em;
+    padding: 0 6em;
   	color: white;
     opacity: .8;
 }
 
 .intro,
 .works,
-.about {
+.about,
+.masthead-intro {
 	  max-width: 50em;
   	margin-left: auto;
   	margin-right: auto;
@@ -115,9 +117,6 @@ body {
   color: #FF3300;
 }
 
-section > h1 {
-  margin-top: 2em;
-}
 /*FOOTER*/
 .footer {
   background-color: #3B3B3B;
@@ -148,7 +147,7 @@ a:hover {
 /*MEDIA QUERIES*/
 @media only screen and (max-width: 500px) {
   .masthead {
-    padding: 5em 0;
+    padding: .2em 0;
   }
   .masthead-heading {
     font-size: 1.5em;
