@@ -48,7 +48,7 @@ body {
   /*Typography Declarations */
   color: #222222;
   font-size: 1em;
-  font-family: "Open Sans", "helvetica Neue", sans-serif;
+  font-family: "Droid+Sans", sans-serif;
 }
 
 .footer {
@@ -64,7 +64,7 @@ body {
 
 .masthead {
     margin: -2em;
-    padding: 11em 0;
+    padding: 12em 0;
     background-image: url('../images/desk.jpg');
     background-repeat: no-repeat;
     background-size: cover;
@@ -72,21 +72,21 @@ body {
 
 .masthead-heading {
     margin-top: -0.2em;
-    font-family: "Open Sans", "Helvetica Neue", sans-serif;
+    padding-bottom: 2em;
+    font-family: "Droid+Sans", sans-serif;
     font-weight: bold;
-    font-size: 2em;
+    font-size: 1.5em;
     letter-spacing: -.02em;
     text-transform: uppercase;
     color: white;
-    opacity: 80%;
+    opacity: .8;
 }
 
 .masthead-intro {
-    margin-bottom: 0.1em;
-    font-family: "Gentium Book Basic", Georgia, serif;
-    font-size: 2em;
-  	color: #FFFFFF;
-  	text-shadow: 1px 1px 16px #000;
+    font-family: "Droid+Sans", sans-serif;
+    font-size: 3em;
+  	color: white;
+    opacity: .8;
 }
 
 .intro,
@@ -151,9 +151,9 @@ a:hover {
 /*MEDIA QUERIES*/
 @media only screen and (max-width: 500px) {
   .masthead {
-    padding: 3em 0;
+    padding: 5em 0;
   }
   .masthead-heading {
-    font-size: 3em;
+    font-size: 1.5em;
   }
 }
