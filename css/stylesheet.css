@@ -51,11 +51,6 @@ body {
   font-family: "Droid+Sans", sans-serif;
 }
 
-.footer {
-  color: #ffffff;
-  font-size: 1em;
-}
-
 .masthead-heading,
 .masthead-intro,
 .footer {
@@ -129,6 +124,8 @@ section > h1 {
   background-size: cover;
   margin-top: 4em;
   padding: 2em;
+  color: #ffffff;
+  font-size: 1em;
 }
 a {
   font-weight: bold;
