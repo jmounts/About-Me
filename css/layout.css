@@ -1,9 +1,20 @@
 .row {
-	max-width: 50em;
-	text-align: center;
+	padding: 2em, 20em;
 }
 
-#header, #footer {
-	width; 960px;
-	margin: 0 auto;
+.title {
+	padding-top: 10em;
+}
+
+.tagline {
+	padding-bottom: 10em;
+	padding-top: 4em;
+}
+
+#header {
+	margin: -2em auto;
+}
+
+#footer {
+
 }
