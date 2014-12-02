@@ -1,0 +1,9 @@
+.row {
+	max-width: 50em;
+	text-align: center;
+}
+
+#header, #footer {
+	width; 960px;
+	margin: 0 auto;
+}
