@@ -1,14 +1,22 @@
 .row {
-	padding: 2em, 20em;
+	padding: 0em auto;
+	width: 40em;
+
 }
 
 .title {
-	padding-top: 10em;
+	padding-top: 4em;
 }
 
 .tagline {
-	padding-bottom: 10em;
+	padding-bottom: 4em;
 	padding-top: 4em;
+}
+
+.btn {
+	text-align: center;
+	padding-bottom: 4em;
+	text-decoration: none;
 }
 
 #header {
@@ -16,5 +24,4 @@
 }
 
 #footer {
-
 }
