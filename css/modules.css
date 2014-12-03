@@ -19,7 +19,7 @@ button {
 }
 
 button:hover {
-    background-color: #d9400e;
+    background-color: #FF3300;
     border-color: #cf3d0e;
     cursor: pointer;
 }
@@ -33,7 +33,6 @@ button:hover {
 .cases .content {
     margin-top: 7px;
     padding: none;
-    color: black;
     text-align: center;
 }
 .cases h2 {
@@ -45,7 +44,7 @@ button:hover {
 }
 .cases .devices > li {
 	text-align: center;
-	display: block;
+	display: inline-block;
     width: 50%;
     float:left;
 }
