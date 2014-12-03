@@ -44,9 +44,9 @@ table {
 ///////////////////////////////////////////////*/
 
 body {
-  font-family: "Raleway," sans-serif;
-  font-weight: 300;
-  font-size: 1em;
+  font-family: "Raleway", sans-serif;
+  font-weight: 500;
+  font-size: 1.4em;
 }
 
 h1 {
@@ -70,12 +70,16 @@ h3 {
   font-weight: 900;
   font-family: "Raleway", sans-serif;
   color: #d9400e;
+  font-size: 23px;
+  padding-top: 1em;
+  padding-bottom: .3em;
 }
 
 ul {
   font-family: "Open Sans Condensed", sans-serif;
   font-size: 1em;
   font-color: black;
+  padding-top: 4em;
 }
 
 a {

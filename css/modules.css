@@ -27,7 +27,8 @@ button:hover {
 .cases {
     background-color: #fff;
     overflow: hidden;
-    padding-bottom: 5px;
+    padding: 0 8em;
+    height: 400px;
 }
 .cases .content {
     margin-top: 7px;
@@ -45,13 +46,6 @@ button:hover {
 .cases .devices > li {
 	text-align: center;
 	display: block;
-    width: 33.3333333%;
+    width: 50%;
     float:left;
-}
-.cases .devices h3 {
-	font-family: 'Roboto', sans-serif;
-    font-weight: lighter;
-    font-size: 23px;
-    margin: 10px 0 50px;
-    color: black;
 }
