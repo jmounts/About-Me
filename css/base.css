@@ -46,13 +46,13 @@ table {
 body {
   font-family: "Raleway", sans-serif;
   font-weight: 500;
-  font-size: 1.4em;
+  font-size: 1.2em;
   color: #4B4B4B;
 }
 
 h1 {
   font-family: "Open Sans Condensed", sans-serif;
-  font-size: 3em;
+  font-size: 2em;
   font-weight: bold;
   color: #FFF;
   text-align: center;
@@ -60,7 +60,7 @@ h1 {
 
 h2 {
   font-family: "Open Sans Condensed", sans-serif;
-  font-size: 1.5em;
+  font-size: 1.2em;
   color: #FFF;
   text-align: center;
   font-weight: 200;

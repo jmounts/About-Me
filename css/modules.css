@@ -5,6 +5,10 @@
     margin-right: auto;
 }
 
+.break {
+    background-image: url(../images/break.jpg);
+}
+
 button {
     width: 9.688rem;
     background-color: transparent;
@@ -16,6 +20,7 @@ button {
     color: #fff;
     font-size: 1rem;
     font-weight: lighter;
+    transition: background-color 300ms ease-out
 }
 
 button:hover {
@@ -35,16 +40,21 @@ button:hover {
     padding: none;
     text-align: center;
 }
-.cases h2 {
-    font-size: 40px;
-    margin: 100px 0 50px;
-    font-weight: lighter;
-    color: black;
-    font-family: 'Roboto', sans-serif;
-}
 .cases .devices > li {
 	text-align: center;
 	display: inline-block;
     width: 50%;
     float:left;
+}
+
+.cases .left {
+    padding-right: 1em;
+}
+
+.cases .right {
+    padding-left: 1em;
+}
+
+.devices {
+    padding-bottom: 50em;
 }
