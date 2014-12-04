@@ -5,10 +5,6 @@
     margin-right: auto;
 }
 
-.break {
-    background-image: url(../images/break.jpg);
-}
-
 button {
     width: 9.688rem;
     background-color: transparent;
@@ -35,11 +31,7 @@ button:hover {
     padding: 0 8em;
     height: 400px;
 }
-.cases .content {
-    margin-top: 7px;
-    padding: none;
-    text-align: center;
-}
+
 .cases .devices > li {
 	text-align: center;
 	display: inline-block;
@@ -47,14 +39,45 @@ button:hover {
     float:left;
 }
 
-.cases .left {
-    padding-right: 1em;
-}
-
-.cases .right {
-    padding-left: 1em;
+.works .container > li {
+    text-align: center;
+    display: inline-block;
+    width: 50%;
+    float:left;
 }
 
 .devices {
-    padding-bottom: 50em;
+    padding-bottom: 12em;
+}
+
+.paragraph {
+    padding-left: 2em;
+    padding-right: 2em;
+}
+
+.call {
+    background-color: #4B4B4B;
+    padding: .5em 0;
+    color: white;
+    cursor: pointer;
+    display: inline-block;
+    font-weight: normal;
+    line-height: 1.42;
+    text-align: center;
+    text-decoration: none !important;
+    width: 100%;
+    transition: background-color 300ms ease-out
+}
+
+.call:hover {
+    background-color: #FF3300;
+    cursor: pointer;
+}
+
+.end {
+    padding-top: 4em;
+    background-image: url(../images/break.jpg);
+    background-size: cover;
+    margin-left: auto;
+    margin-right: auto;
 }
