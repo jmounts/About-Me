@@ -89,3 +89,31 @@ button:hover {
 .wrapper:hover .text {
     visibility:visible;
 }
+
+/*////////MEDIA QUERIES//////////*/
+@media only screen and (max-width: 1000px) {
+  .tagline {
+    font-size: 50%;
+  }
+
+  hr {
+    width: 16em;
+  }
+
+  .works .container > li {
+    text-align: center;
+    display: block;
+    float: none;
+  }
+  .left {
+    float: none;
+    position: static;
+    width: auto;
+  }
+    .cases .devices > li{
+    float: none;
+    position: static;
+    width: auto;
+  }
+}
+}
