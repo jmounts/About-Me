@@ -79,10 +79,11 @@ button:hover {
 }
 
 .wrapper .text {
-    position:relative;
+    position: relative;
     color: #fff;
-    bottom:30px;
+    bottom: 60px;
     visibility:hidden;
+    font-size: 1.5em;
 }
 
 .wrapper:hover .text {
