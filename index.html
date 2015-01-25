@@ -2,12 +2,15 @@
 <head>
   <title>Marketer {|} Designer</title>
   <meta charset="UTF-8">
+  <link rel="stylesheet" href='css/foundation.min.css'></link>  
   <link href='http://fonts.googleapis.com/css?family=Droid+Sans|Droid+Serif|Open+Sans+Condensed:300|Raleway' rel='stylesheet' type='text/css'>
   <!--<link href="//maxcdn.bootstrapcdn.com/font-awesome/4.2.0/css/font-awesome.min.css" rel="stylesheet"> -->
   <link href='css/font-awesome-4.2.0'>
   <link rel="stylesheet" type="text/css" href='css/base.css'>
   <link rel="stylesheet" type="text/css" href='css/layout.css'>
   <link rel="stylesheet" type="text/css" href='css/modules.css'>
+  <script src="http://code.jquery.com/jquery.min.js"></script>
+  <script src="js/main.js"></script>
 </head>
 <header class="billboard">
   <div class="title">  
@@ -20,50 +23,39 @@
     <button>Pick My Brain</button>
   </div>
 </header>
-<nav>
-</nav>
-<section class="cases">
-    <ul class="devices">
-      <li>
-        <img width="127px" height="127px" src="images/lt-brain.png" alt="Internet for all devices image">
-        <div class="left">
-            <h3>Left Brain</h3>
-            <p class="paragraph">Capital &quot;M&quot; Marketing, Database Marketing, Copywriting, Print Buying, Budget, Research, Market &amp; Data Analysis</p>
-        </div>
-      </li>
-      <li>
-        <img width="127px" height="127px" src="images/rt-brain.png" alt="Boost your productivity image">
-        <div class="right">
-          <h3 class="rtbrain">Right Brain</h3>
-          <p class="rtbrain">Small &quot;m&quot; Marketing, Advertising, Design - layout &amp; composition, Typography, Color Theory, Digital &amp; Print Collateral</p>          
-        </div>
-      </li>
-    </ul>
+<section class="row brains">
+  <div class="medium-6 small-12 columns left">
+    <img width="127px" height="127px" src="images/lt-brain.gif" alt="Left Brain">
+    <h3>Left Brain</h3>
+    <p class="paragraph">Capital &quot;M&quot; Marketing, Database Marketing, Copywriting, Print Buying, Budget, Research, Market &amp; Data Analysis</p>
+  </div>
+  <div class="medium-6 small-12 columns rtbrain">        
+    <img width="127px" height="127px" src="images/rt-brain.gif" alt="Right Brain">
+    <h3 class="rtbrain">Right Brain</h3>
+    <p>Small &quot;m&quot; Marketing, Advertising, Design - layout &amp; composition, Typography, Color Theory, Digital &amp; Print Collateral</p>
+  </div>
 </section>
 <section class="works">
   <div class="row">
     <hr>
     <h4>Portfolio</h4>
   </div>  
-  <div class="cases">
-    <ul class="devices">
-      <li class="wrapper">
-        <img width="300px" height="300px" src="images/case.jpg" class="hover">
-        <p class="text">Case Studies</p>
-      </li>
-      <li class="wrapper">
-        <img width="300px" height="300px" src="images/logos.jpg" class="hover">
-        <p class="text">Brand Identity</p>
-      </li>
-    </ul>
-   </div>
-   <div class="cases">  
-    <ul class="devices">
-      <li class="wrapper">
+  <div class="cases row">
+    <div class="devices wrapper medium-5 medium-centered small-12 columns">
+       <img width="300px" height="300px" src="images/case.jpg" class="hover">
+       <p class="text">Case Studies</p>
+    </div>
+    <div class="devices wrapper medium-5 medium-centered medium-end small-12 columns">
+      <img width="300px" height="300px" src="images/logos.jpg" class="hover">      <p class="text">Brand Identity</p>
+    </div>
+  </div>
+  <div class="cases">  
+    <ul class="devices row">
+      <li class="wrapper medium-5 medium-centered small-12 columns">
         <img width="300px" height="300px" src="images/market.jpg" class="hover">
         <p class="text">Market Analysis</p>        
       </li>
-      <li class="wrapper">
+      <li class="wrapper medium-6 small-12 columns ">
         <img width="300px" height="300px" src="images/advertising.jpg" class="hover">
         <p class="text">Advertising</p>
       </li>      

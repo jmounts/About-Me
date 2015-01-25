@@ -25,11 +25,10 @@ button:hover {
     cursor: pointer;
 }
 
-.cases {
+.brains {
     background-color: #fff;
-    overflow: hidden;
-    padding: 0 8em;
-    height: 400px;
+    padding-top: 6em;
+    text-align: center;
 }
 
 .cases .devices > li {
@@ -90,30 +89,14 @@ button:hover {
     visibility:visible;
 }
 
-/*////////MEDIA QUERIES//////////*/
+/*MEDIA QUERIES*/
 @media only screen and (max-width: 1000px) {
   .tagline {
-    font-size: 50%;
+    font-size: 75%;
   }
 
-  hr {
-    width: 16em;
-  }
-
-  .works .container > li {
-    text-align: center;
-    display: block;
-    float: none;
-  }
-  .left {
-    float: none;
-    position: static;
-    width: auto;
-  }
-    .cases .devices > li{
-    float: none;
-    position: static;
-    width: auto;
+  .brains {
+    font-size: 75%;
   }
 }
 }
