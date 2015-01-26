@@ -31,26 +31,11 @@ button:hover {
     text-align: center;
 }
 
-.cases .devices > li {
+.cases {
 	text-align: center;
 	display: inline-block;
     width: 50%;
     float:left;
-}
-
-.works .container > li {
-    text-align: center;
-    display: inline-block;
-    width: 50%;
-    float:left;
-}
-
-.devices {
-    padding-bottom: 12em;
-    max-width: 40em;
-    text-align: center;
-    margin-right: auto;
-    margin-left: auto;
 }
 
 .paragraph {
@@ -77,6 +62,9 @@ button:hover {
     cursor: pointer;
 }
 
+.wrapper {
+    padding-top: 2em;
+}
 .wrapper .text {
     position: relative;
     color: #fff;
@@ -97,6 +85,10 @@ button:hover {
 
   .brains {
     font-size: 75%;
+  }
+
+  .wrapper .text{
+    font-size: 125%;
   }
 }
 }
