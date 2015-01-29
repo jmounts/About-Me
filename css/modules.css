@@ -1,5 +1,5 @@
 .billboard {
-	background-image: url(../images/desk.jpg);
+	background: url(../images/desk.jpg);
 	background-size: cover;
     margin-left: auto;
     margin-right: auto;

@@ -25,8 +25,6 @@ $(document).ready(function(){
 });
     /* custom settings */
     $('.venobox_case').venobox({
-        framewidth: '400px',        // default: ''
-        frameheight: '300px',       // default: ''
         border: '0px',             // default: '0'
         bgcolor: '#000',        // default: '#fff'
         titleattr: 'data-title',    // default: 'title'
@@ -37,5 +35,15 @@ $(document).ready(function(){
     /* auto-open #firstlink on page load */
     $("#firstlink").venobox().trigger('click');
 
+    $('.venobox_logo').venobox({
+        border: '0px',             // default: '0'
+        bgcolor: '#000',        // default: '#fff'
+        titleattr: 'data-title',    // default: 'title'
+        numeratio: false,            // default: false
+        infinigall: true            // default: false
+    });
+
+    /* auto-open #firstlink on page load */
+    $("#firstlink").venobox().trigger('click');
 
 })
