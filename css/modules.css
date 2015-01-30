@@ -1,8 +1,11 @@
 .billboard {
-	background: url(../images/desk.jpg);
+	background: url(../images/desk.jpg) no-repeat;
 	background-size: cover;
-    margin-left: auto;
-    margin-right: auto;
+    margin: 0;
+    top: 0;
+    width: 100%;
+    z-index: -1;
+    position: fixed;
 }
 
 button {
@@ -26,9 +29,12 @@ button:hover {
 }
 
 .brains {
-    background-color: #fff;
-    padding-top: 6em;
+    background-color: #FFF;
+    padding-top: 3em;
+    padding-bottom: 2em;
     text-align: center;
+    margin-top: 33em;
+    max-width: 100%;
 }
 
 .cases {
@@ -81,7 +87,7 @@ button:hover {
 /*MEDIA QUERIES*/
 @media only screen and (max-width: 1000px) {
   .tagline {
-    font-size: 75%;
+    font-size: 70%;
   }
 
   .brains {

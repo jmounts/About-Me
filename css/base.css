@@ -47,7 +47,6 @@ body {
   font-family: "Raleway", sans-serif;
   font-weight: 500;
   font-size: 1.2em;
-  color: #4B4B4B;
 }
 
 p {
@@ -113,4 +112,8 @@ a:hover {
 
 .rtbrain {
   color: #FF3300;
+}
+
+#white {
+  background-color: #fff;
 }
