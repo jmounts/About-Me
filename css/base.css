@@ -89,8 +89,9 @@ h4 {
 }
 
 hr {
-  width: 30em;
   text-align: center;
+  margin-top: 0;
+  padding-right: 2em;
 }
 
 ul {
@@ -116,4 +117,8 @@ a:hover {
 
 #white {
   background-color: #fff;
+}
+
+.rtfont {
+  color: #FF3300;
 }
