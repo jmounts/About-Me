@@ -46,4 +46,6 @@ $(document).ready(function(){
     /* auto-open #firstlink on page load */
     $("#firstlink").venobox().trigger('click');
 
+    $(window).stellar();
+
 })
