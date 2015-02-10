@@ -105,6 +105,20 @@ button:hover {
     visibility:visible;
 }
 
+#brainspin {
+    height:50px;
+    width:50px;
+    background: url(../images/brain.png);
+    margin:auto; /*position the [div] on the center*/
+    margin-top: 2em;
+    opacity: .5;
+  }
+
+  /*this is the hover event trigger*/
+  #brainspin:hover { 
+    background:url(../images/brain.gif);
+  }
+
 /*MEDIA QUERIES*/
 @media only screen and (max-width: 1000px) {
   .tagline {
