@@ -1,11 +1,11 @@
 .billboard {
 	background: url(../images/desk.jpg) no-repeat;
 	background-size: cover;
-    margin: 0;
-    top: 0;
-    width: 100%;
-    z-index: -1;
-    position: fixed;
+  margin: 0;
+  top: 0;
+  width: 100%;
+  z-index: -1;
+  position: fixed;
 }
 
 .head {
@@ -27,6 +27,15 @@
          -o-animation-fill-mode: both;
             animation-fill-mode: both;
 }
+
+.overlay{
+  position: absolute;
+  top: 0; right: 0; left: 0; bottom: 0;
+  background: url(../images/overlay.jpg) center no-repeat;
+  background-size: cover;
+  z-index: -1;
+  opacity: 0;
+  }
 
 button {
     width: 9.688rem;
@@ -143,4 +152,8 @@ button:hover {
   .rtbrain {
     padding-top: 4em;
   }
+
+  .head{
+    font-size: 70%
+  } 
 }
