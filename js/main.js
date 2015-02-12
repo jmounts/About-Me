@@ -160,4 +160,15 @@ Scroller.prototype = {
 var scroller = new Scroller();  
 scroller.init();
 
+//**sticky***//
+
+$(window).scroll(function(){
+    if ($(window).scrollTop() >= 300) {
+       $('#brainspin').addClass('fixed-header');
+    }
+    else {
+       $('#brainspin').removeClass('fixed-header');
+    }
+});
+
 })
