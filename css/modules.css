@@ -28,6 +28,18 @@
             animation-fill-mode: both;
 }
 
+.fixed {
+  position: fixed;
+  top: 0;
+  left: 0;
+  z-index: 500;
+  height: 165px;
+}
+
+.fixed:h1 {
+  visibility: hidden;
+}
+
 .overlay{
   position: absolute;
   top: 0; right: 0; left: 0; bottom: 0;
@@ -156,4 +168,12 @@ button:hover {
   .head{
     font-size: 70%
   } 
+
+  .fixed {
+    height: 130px;
+  }
+
+  .tagline {
+    font-size: 50%;
+  }
 }

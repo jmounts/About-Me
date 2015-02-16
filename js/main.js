@@ -163,11 +163,11 @@ scroller.init();
 //**sticky***//
 
 $(window).scroll(function(){
-    if ($(window).scrollTop() >= 300) {
-       $('#brainspin').addClass('fixed-header');
+    if ($(window).scrollTop() >= 450) {
+       $('header').addClass('fixed');
     }
     else {
-       $('#brainspin').removeClass('fixed-header');
+       $('header').removeClass('fixed');
     }
 });
 
