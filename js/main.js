@@ -163,7 +163,7 @@ scroller.init();
 //**sticky***//
 
 $(window).scroll(function(){
-    if ($(window).scrollTop() >= 450) {
+    if ($(window).scrollTop() >= 400) {
        $('header').addClass('fixed');
     }
     else {
